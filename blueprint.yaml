@@ -140,7 +140,6 @@ node_templates:
         target: key_pair
 
 capabilities:
-    host:
+    ip:
         description: ip of the host
-        value:
-            ip: { get_attribute: [host, ip] }
+        value: { get_attribute: [host, ip] }
